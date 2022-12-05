@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>자기소개 홈페이지</title>
+	<link rel="stylesheet" type="text/css" href="fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="mid.css">
+</head>
+<body>
+	<div id="fullpage">
+		<div class="section" style="background-color: dimgray;">
+			<div id="left">
+				<p style="font-size: 2em;">김시현</p>
+				<p style="font-weight: 100;">Siheon Kim</p><br>
+				<p>단국대학교</p>
+				<p>소프트웨어학과</p>
+				<p style="font-weight: 100;">32200793</p>
+			</div>
+			<div id="right">
+				<img src="web-design.jpg">
+			</div>
+		</div>
+		<div class="section" style="background-color: gainsboro;">
+			<div id="top">
+				<img src="wood.jpg">
+			</div>
+			<div id="text1">
+				<div id="title">
+					소개
+				</div><br><br><br>
+				<p style="line-height: 200%">&nbsp;&nbsp;&nbsp;단국대학교에 건축공학전공으로 입학하게 된 후 ‘컴퓨터 프로그래밍’, ‘대학기초SW입문’ 등과 같은 수업을 신청하여 듣게 되었습니다. 이 수업에서 고등학교 때 잠깐 배웠던 코딩보다 조금 더 심화된 내용을 배우고 여러 실습을 통해 코딩 능력을 향상시킬 수 있게 되었습니다. 이후 더욱 많은 시간을 프로그래밍에 쏟고 이쪽 분야에 조금 더 매진하고 싶다고 생각하게 되어 소프트웨어학과로 전공을 변경하게 되었습니다.</p>
+			</div>
+		</div>
+		<div class="section" style="background-color: gainsboro;">
+			<div id="top">
+				<img src="wood.jpg">
+			</div>
+			<div id="title">
+				수강 이력
+			</div><br><br><br>
+			<div id="text2">
+				<p><span>2021년 2학기</span></p>
+				<p>자료구조<br>시스템프로그래밍<br>웹프로그래밍</p>
+				<p><span>2021년 1학기</span></p>
+				<p>객체지향프로그래밍<br>데이터베이스기초</p>
+				<p><span>2020년 2학기</span></p>
+				<p>컴퓨터프로그래밍<br>인공지능개론</p>
+			</div>
+		</div>
+		<div class="section">
+			<video id="videobcg" preload="auto" autoplay="" loop="" muted="" volume="0">
+				<source src="Keyboard - 1046.mp4" type="video/mp4">
+					Sorry, your browser does not support HTML5 video.
+			</video>
+		</div>
+	</div>
+	<script type="text/javascript" src="fullpage.js"></script>
+	<script type="text/javascript">
+		new fullpage('#fullpage', {
+			autoScrolling:true,
+			scrollHorizontally: true,
+			navigation: true,
+			navigationPosition: 'left',
+		});
+	</script>
+</body>
+</html>

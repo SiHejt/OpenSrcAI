@@ -1,0 +1,56 @@
+body {
+	width: 100%;
+	height: 100%;
+	font-family: times New Roman, serif;
+	font-weight: 900;
+	color: dimgray;
+}
+#left {
+	position: absolute;
+	left: 25%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: gainsboro;
+}
+#right {
+	overflow: hidden;
+	position: absolute;
+	height: 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+#top {
+	position: absolute;
+	overflow: hidden;
+	top: 0%;
+}
+#title {
+	text-align: center;
+	font-size: 2em;
+}
+span {
+	font-size: 1.3em;
+}
+#text1 {
+	width: 30%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+#text2 {
+	text-align: center;
+}
+#videobcg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	overflow: hidden;
+}
